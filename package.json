@@ -1,0 +1,39 @@
+{
+  "name": "adaca-assessment-automation",
+  "version": "1.0.0",
+  "description": "Automation test suite using Selenium WebDriver and Playwright for Adaca's technical assessment.",
+  "main": "index.js",
+  "scripts": {
+    "test:selenium": "node tests/selenium/login.test.js",
+    "test:add-item": "node tests/selenium/addItem.test.js",
+    "test:delete-item": "node tests/selenium/deleteItem.test.js",
+    "test:playwright": "npx playwright test tests/playwright/login.playwright.test.js",
+    "test:login-data-driven": "node tests/selenium/dataDrivenLogin.test.js"
+
+  },
+  "author": "Marylou Delacerna",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mldc-auto-projects/adaca-assessment-automation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mldc-auto-projects/adaca-assessment-automation/issues"
+  },
+  "homepage": "https://github.com/mldc-auto-projects/adaca-assessment-automation#readme",
+  "keywords": [
+    "selenium",
+    "playwright",
+    "automation",
+    "javascript",
+    "qa",
+    "e2e",
+    "adaca"
+  ],
+  "dependencies": {
+    "selenium-webdriver": "^4.31.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.51.1"
+  }
+}
