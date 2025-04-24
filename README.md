@@ -1,6 +1,6 @@
-# Adaca Assessment - Automation Test Suite
+# Automation Test Suite - Playwright and Selenium WebDriver
 
-This project is a submission for the Automation Test Engineer Technical Assessment. It covers automated end-to-end tests using both Selenium WebDriver and Playwright for [https://www.saucedemo.com/v1/](https://www.saucedemo.com/v1/).
+It covers automated end-to-end tests using both Selenium WebDriver and Playwright for [https://www.saucedemo.com/v1/](https://www.saucedemo.com/v1/).
 
 ---
 
